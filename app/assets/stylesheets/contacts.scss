@@ -1,3 +1,13 @@
 // Place all the styles related to the contacts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.flashes{
+  @include span-columns(10);
+  @include shift(2);
+
+  p{
+    color: $orange;
+    font-weight: 300;
+  }
+}

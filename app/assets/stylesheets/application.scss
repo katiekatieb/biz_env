@@ -10,6 +10,15 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+ **= require normalize-rails
  *= require_self
  */
+
+@import "bourbon";
+@import "neat";
+@import "base/base";
+
+@import "header";
+@import "footer";
+@import "pages";
+@import "contacts";

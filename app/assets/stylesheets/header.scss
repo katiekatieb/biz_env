@@ -1,0 +1,81 @@
+header{
+  @include outer-container(100%);
+  padding: 20px;
+  background-color: rgba($dark-gray, 0);
+  position:fixed; 
+  top:0px; 
+  z-index:100000; 
+  width: 100%;
+
+  img{
+    width: 90px;
+  }
+
+  .logo{
+    background-image: url("logo.svg");
+    background-size: 120px;
+    height: 120px;
+    width: 140px;
+    background-repeat: no-repeat;
+    display: inline-block;
+  }
+
+  .scroll{
+    background-image: url("logo2.svg");
+    background-size: 150px;
+    height: 45px;
+    width: 200px;
+  }
+
+  nav{
+    float: right;
+    margin-top: 0px;
+
+    a{
+      color: $dark-gray;
+      text-transform: uppercase;
+      letter-spacing: .2rem;
+      margin-left: 20px;
+      font-weight: 700;
+      font-size: .8rem;
+      line-height: 1.8;
+      padding-bottom: 5px;
+
+      &:hover{
+        border-bottom: 2px solid $dark-gray;
+        color: $dark-gray;
+      }
+
+      &:active{
+        color: $dark-gray;
+      }
+    }
+  }
+
+  .nav-scroll{
+    a{
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: .2rem;
+      margin-left: 20px;
+      font-weight: 700;
+      font-size: .8rem;
+      line-height: 1.8;
+      padding-bottom: 5px;
+
+      &:hover{
+        border-bottom: 2px solid white;
+        color: white;
+      }
+
+      &:active{
+        color: white;
+      }
+    }
+  }
+
+}
+
+.header-scroll{
+  background-color: rgba($dark-gray, 0.9);
+}

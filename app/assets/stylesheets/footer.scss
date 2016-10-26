@@ -1,0 +1,25 @@
+footer{
+  @include outer-container(100%);
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+
+  p{
+    color: $medium-gray;
+    font-size: .8rem;
+    margin-top: 20px;
+  }
+
+  a{
+    display: inline;
+  }
+
+  img{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: inline;
+    margin: 0 20px;
+  }
+}

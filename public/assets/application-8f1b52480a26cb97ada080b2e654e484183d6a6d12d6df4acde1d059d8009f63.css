@@ -1,0 +1,1133 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+/* line 4, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+  appearance: none;
+  background-color: #ddd;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 150ms ease;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+/* line 22, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_buttons.scss */
+button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
+  background-color: #b1b1b1;
+  color: #fff;
+}
+/* line 28, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_buttons.scss */
+button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+/* line 32, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_buttons.scss */
+button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
+  background-color: #ddd;
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+fieldset {
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+legend {
+  font-weight: 600;
+  margin-bottom: 0.375em;
+  padding: 0;
+}
+
+/* line 14, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.375em;
+}
+
+/* line 20, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+input,
+select,
+textarea {
+  display: block;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+}
+
+/* line 28, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], input:not([type]), textarea {
+  appearance: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  transition: border-color 150ms ease;
+  width: 100%;
+}
+/* line 40, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, input:not([type]):hover, textarea:hover {
+  border-color: #b1b1b1;
+}
+/* line 44, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, input:not([type]):focus, textarea:focus {
+  border-color: #ddd;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(208, 208, 208, 0.7);
+  outline: none;
+}
+/* line 50, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+input[type="color"]:disabled, input[type="date"]:disabled, input[type="datetime"]:disabled, input[type="datetime-local"]:disabled, input[type="email"]:disabled, input[type="month"]:disabled, input[type="number"]:disabled, input[type="password"]:disabled, input[type="search"]:disabled, input[type="tel"]:disabled, input[type="text"]:disabled, input[type="time"]:disabled, input[type="url"]:disabled, input[type="week"]:disabled, input:not([type]):disabled, textarea:disabled {
+  background-color: #f2f2f2;
+  cursor: not-allowed;
+}
+/* line 54, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+input[type="color"]:disabled:hover, input[type="date"]:disabled:hover, input[type="datetime"]:disabled:hover, input[type="datetime-local"]:disabled:hover, input[type="email"]:disabled:hover, input[type="month"]:disabled:hover, input[type="number"]:disabled:hover, input[type="password"]:disabled:hover, input[type="search"]:disabled:hover, input[type="tel"]:disabled:hover, input[type="text"]:disabled:hover, input[type="time"]:disabled:hover, input[type="url"]:disabled:hover, input[type="week"]:disabled:hover, input:not([type]):disabled:hover, textarea:disabled:hover {
+  border: 1px solid #ddd;
+}
+/* line 59, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+input[type="color"]::placeholder, input[type="date"]::placeholder, input[type="datetime"]::placeholder, input[type="datetime-local"]::placeholder, input[type="email"]::placeholder, input[type="month"]::placeholder, input[type="number"]::placeholder, input[type="password"]::placeholder, input[type="search"]::placeholder, input[type="tel"]::placeholder, input[type="text"]::placeholder, input[type="time"]::placeholder, input[type="url"]::placeholder, input[type="week"]::placeholder, input:not([type])::placeholder, textarea::placeholder {
+  color: #858585;
+}
+
+/* line 64, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+textarea {
+  resize: vertical;
+}
+
+/* line 68, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+[type="checkbox"],
+[type="radio"] {
+  display: inline;
+  margin-right: 0.375em;
+}
+
+/* line 74, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+[type="file"] {
+  margin-bottom: 0.75em;
+  width: 100%;
+}
+
+/* line 79, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_forms.scss */
+select {
+  margin-bottom: 0.75em;
+  width: 100%;
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_layout.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 5, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_layout.scss */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* line 11, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_layout.scss */
+html,
+body {
+  height: 100%;
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 8, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_lists.scss */
+dl {
+  margin: 0;
+}
+
+/* line 12, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_lists.scss */
+dt {
+  font-weight: 600;
+  margin: 0;
+}
+
+/* line 17, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_lists.scss */
+dd {
+  margin: 0;
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_media.scss */
+figure {
+  margin: 0;
+}
+
+/* line 5, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_media.scss */
+img,
+picture {
+  margin: 0;
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_tables.scss */
+table {
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* line 8, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_tables.scss */
+th {
+  border-bottom: 1px solid #a6a6a6;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left;
+}
+
+/* line 15, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_tables.scss */
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.75em 0;
+}
+
+/* line 20, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_typography.scss */
+body {
+  color: #333;
+  font-family: "Lato", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+/* line 8, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  font-size: 1.333em;
+  line-height: 1.2;
+  margin: 0 0 0.75em;
+}
+
+/* line 20, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_typography.scss */
+p {
+  margin: 0 0 0.75em;
+}
+
+/* line 24, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_typography.scss */
+a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 150ms ease;
+}
+/* line 29, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_typography.scss */
+a:active, a:focus, a:hover {
+  color: #a6a6a6;
+}
+
+/* line 36, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #ddd;
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+  margin: 1.5em 0;
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: rgba(51, 51, 51, 0);
+  position: fixed;
+  top: 0px;
+  z-index: 100000;
+  width: 100%;
+}
+/* line 20, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/mixins/_clearfix.scss */
+header::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 10, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header img {
+  width: 90px;
+}
+/* line 14, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header .logo {
+  background-image: url("logo.svg");
+  background-size: 120px;
+  height: 120px;
+  width: 140px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+/* line 23, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header .scroll {
+  background-image: url("logo2.svg");
+  background-size: 150px;
+  height: 45px;
+  width: 200px;
+}
+/* line 30, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header nav {
+  float: right;
+  margin-top: 0px;
+}
+/* line 34, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header nav a {
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: .8rem;
+  line-height: 1.8;
+  padding-bottom: 5px;
+}
+/* line 44, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header nav a:hover {
+  border-bottom: 2px solid #333;
+  color: #333;
+}
+/* line 49, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header nav a:active {
+  color: #333;
+}
+/* line 56, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header .nav-scroll a {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: .8rem;
+  line-height: 1.8;
+  padding-bottom: 5px;
+}
+/* line 66, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header .nav-scroll a:hover {
+  border-bottom: 2px solid white;
+  color: white;
+}
+/* line 71, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+header .nav-scroll a:active {
+  color: white;
+}
+
+/* line 79, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/header.scss */
+.header-scroll {
+  background-color: rgba(51, 51, 51, 0.9);
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/footer.scss */
+footer {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+/* line 20, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/mixins/_clearfix.scss */
+footer::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 7, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/footer.scss */
+footer p {
+  color: #999;
+  font-size: .8rem;
+}
+
+/* line 1, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.slideshow {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 130px 20px 20px 20px;
+  height: 800px;
+  background-size: cover;
+}
+/* line 20, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/mixins/_clearfix.scss */
+.slideshow::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+/* line 9, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.about {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #999;
+  padding: 150px 70px;
+}
+/* line 20, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/mixins/_clearfix.scss */
+.about::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 14, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.about h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+/* line 24, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.about p {
+  text-align: center;
+  color: white;
+  font-weight: 300;
+}
+
+/* line 31, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.portfolio {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 20px;
+  background-color: white;
+}
+/* line 20, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/mixins/_clearfix.scss */
+.portfolio::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 36, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.portfolio h2 {
+  text-align: center;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+
+/* line 48, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.contact {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 20px;
+  background-color: white;
+}
+/* line 20, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/mixins/_clearfix.scss */
+.contact::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 53, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.contact h2 {
+  text-align: center;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+/* line 63, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.contact form {
+  width: 60%;
+  margin: 0 auto;
+}
+/* line 67, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.contact form label {
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-bottom: 5px;
+}
+/* line 76, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.contact form input {
+  border-width: 0;
+  border-radius: 0;
+  border-bottom-width: 2px;
+  box-shadow: none;
+  margin: 0;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  padding: 10px 2px 6px 2px;
+  box-shadow: none;
+}
+/* line 88, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.contact form input[type=text] {
+  box-shadow: none;
+}
+/* line 92, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.contact form textarea {
+  border-radius: 0;
+  border-width: 0;
+  border-bottom-width: 2px;
+  box-shadow: none;
+  min-height: 100px;
+  resize: none;
+}
+/* line 101, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.contact form input[type=submit] {
+  background-color: #333;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 15px;
+  float: right;
+  margin-top: 10px;
+}
+
+/* line 116, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.testimonials {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px 20px;
+  background-color: #333;
+}
+/* line 20, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/mixins/_clearfix.scss */
+.testimonials::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 121, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.testimonials h2 {
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-bottom: 5px;
+}
+
+/* line 148, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox {
+  cursor: default;
+  list-style: none;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 20, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/mixins/_clearfix.scss */
+.hoverbox::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 153, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox a {
+  cursor: default;
+}
+/* line 157, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox a .preview1 {
+  display: none;
+}
+/* line 161, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox a .preview2 {
+  display: none;
+}
+/* line 165, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox a .preview3 {
+  display: none;
+}
+/* line 169, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox a:hover .preview1 {
+  display: block;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+/* line 178, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox a:hover .preview2 {
+  display: block;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+/* line 187, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox a:hover .preview3 {
+  display: block;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+/* line 196, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox a[disabled] {
+  pointer-events: none;
+}
+/* line 200, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox img {
+  color: inherit;
+  padding: 2px;
+  vertical-align: top;
+  width: 100%;
+  height: auto;
+  min-height: 300px;
+  overflow: hidden;
+}
+/* line 214, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox li {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  color: inherit;
+  display: inline;
+  float: left;
+  margin-bottom: 20px;
+  position: relative;
+}
+/* line 89, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_span-columns.scss */
+.hoverbox li:last-child {
+  margin-right: 0;
+}
+/* line 78, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_omega.scss */
+.hoverbox li:nth-child(3n) {
+  margin-right: 0;
+}
+/* line 83, /Users/katiebrasfield/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_omega.scss */
+.hoverbox li:nth-child(3n+1) {
+  clear: left;
+}
+/* line 228, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox li:hover .preview {
+  display: block;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+}
+/* line 237, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox .preview1 {
+  border-color: #000;
+  width: 700px;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  left: 0%;
+}
+/* line 246, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox .preview2 {
+  border-color: #000;
+  width: 700px;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  right: -50%;
+}
+/* line 255, /Users/katiebrasfield/code/business_env/app/assets/stylesheets/pages.scss */
+.hoverbox .preview3 {
+  border-color: #000;
+  width: 700px;
+  height: auto;
+  position: fixed;
+  top: 50%;
+  right: 0%;
+}
