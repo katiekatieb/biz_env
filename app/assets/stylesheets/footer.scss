@@ -22,4 +22,22 @@ footer{
     display: inline;
     margin: 0 20px;
   }
+
+  h3{
+    text-align: center;
+    color: $medium-gray;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+
+  .block{
+    display: block;
+    margin: 0 auto;
+
+    img{
+      width: 300px;
+    }
+  }
 }
