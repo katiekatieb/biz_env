@@ -32,8 +32,8 @@ $(document).on('turbolinks:load', function() {
 });
 
 
-$(document).on('turbolinks:load', function() {
-  var images = ['ss1.jpg', 'ss2.jpg', 'ss3.jpg', 'ss4.png', 'ss5.jpg'];
-  var image = images[Math.floor(Math.random() * images.length)];
-  $('.slideshow').css('background-image', "url('/assets/"+image+"')") ;
-});
+// $(document).on('turbolinks:load', function() {
+//   var images = ['ss1.jpg', 'ss2.jpg', 'ss3.jpg', 'ss4.png', 'ss5.jpg'];
+//   var image = images[Math.floor(Math.random() * images.length)];
+//   $('.slideshow').css('background-image', "url('/assets/"+image+"')") ;
+// });
