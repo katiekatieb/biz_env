@@ -102,7 +102,7 @@ $animation-delay: 4s;
   @include animation-delay($animation-delay * 2);
 }
 .slideshow li:nth-child(4) span { 
-  background-image: url(ss4.png);
+  background-image: url(ss5.jpg);
   @include animation-delay($animation-delay * 3);
 }
 
